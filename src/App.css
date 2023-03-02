@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  display: flex;
+  align-items: center;
+  background-color: #1a171d;
+}
+.task-container {
+  background-color: #1a171d;
+  width: 45vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+.task-heading {
+  color: #f3aa4e;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.label-ele {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.input-element {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  width: 40vw;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.add-btn {
+  background-color: #f3aa4e;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #f1f5f9;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.select-container {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  width: 40vw;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+.tags-container {
+  background-color: #131213;
+  width: 55vw;
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+.tag-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+}
+.tags-list {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.error-msg {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+}
+.tasks-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
